@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block title %}<title>Projects</title>{% endblock %}
+{%block content %}
+<section>
+  <h1>Projects</h1>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nulla earum placeat. Optio vero voluptas possimus, architecto quidem ad adipisci tempore? Doloribus delectus quisquam officia minus magnam? Eius, animi natus.
+  </p>
+</section>
+<section class="project-grid">
+  {% if latest_project_list %}
+  {% for project in latest_project_list %}
+  <div class="project-item">
+    <img src="#" alt="project image">
+    <h4><a href="{% url 'projects:detail' project.id %}/">{{ project.title }}</a></h4>
+    <h6>{{ project.tags }}</h6>
+    <p>
+      {{ project.description }}
+    </p>
+  </div>
+  {% endfor %}
+  {% else %}
+  <p>No projects to display yet</p>
+  {% endif %}
+</section>
+
+{% endblock %}

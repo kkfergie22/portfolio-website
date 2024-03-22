@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css?family=Orbitron:700|Roboto:400');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+html {
+  font-size: 100%;
+} /* 16px */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Orbitron';
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 4.21rem; /* 67.36px */
+}
+
+h2 {
+  font-size: 3.158rem; /* 50.56px */
+}
+
+h3 {
+  font-size: 2.369rem; /* 37.92px */
+}
+
+h4 {
+  font-size: 1.777rem; /* 28.48px */
+}
+
+h5 {
+  font-size: 1.333rem; /* 21.28px */
+}
+
+small {
+  font-size: 0.75rem; /* 12px */
+}
+
+body {
+  font-family: 'Roboto', Inter, sans-serif;
+  font-weight: 400;
+  background-color: #0d0208;
+  color: #1db968;
+  display: grid;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* tailwindcss config */
+/* fontSize: {
+  sm: '0.750rem',
+  base: '1rem',
+  xl: '1.333rem',
+  '2xl': '1.777rem',
+  '3xl': '2.369rem',
+  '4xl': '3.158rem',
+  '5xl': '4.210rem',
+},
+fontFamily: {
+  heading: 'Orbitron',
+  body: 'Roboto',
+},
+fontWeight: {
+  normal: '400',
+  bold: '700',
+}, */
+
+/* Initial color */
+
+/* --text: #01c619;
+--background: #0d0208;
+--primary: #033B00;
+--secondary: #008f11;
+--accent: #00FF40; */
+
+/* Second
+--text: #1db968;
+--background: #0d0208;
+--primary: #00e682;
+--secondary: #0a5c37;
+--accent: #00381f; */
