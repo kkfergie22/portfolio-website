@@ -1,2 +1,63 @@
-portfolio-website
+#NextJs
+.next/
+out/
+
 node_modules
+# Python related
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Docker related
+.DS_Store
+.dockerignore
+
+# Terraform related
+.terraform/
+
+# Kubernetes related
+.kube/
+helmfile.yaml
+
+# IDE related
+.vscode/
+.idea/
+.history/
+# Logs and local development files
+logs/
+*.log
+.env
+.env.local
+.env-*
+.env.local-*
+.env.*
+
+# Dependency directories
+node_modules/
+venv/
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Temporary files
+*.tmp
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# CI/CD related
+/.github/
+.jenkins/
+
+# Database backups
+backup/
+
+# Other project specific files
+config.ini
+
+```
