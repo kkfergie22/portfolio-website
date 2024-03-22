@@ -60,4 +60,6 @@ backup/
 # Other project specific files
 config.ini
 
-```
+# Tailwind CSS cache files
+.cache/
+static/CACHE/
