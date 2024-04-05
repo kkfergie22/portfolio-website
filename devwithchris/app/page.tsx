@@ -4,15 +4,15 @@ import React from 'react';
 const Homepage = () => {
   return (
     <>
-      <header className="border">
+      <div className="container">
         <Navbar />
-      </header>
-      <main>
-        <h1>Homepage</h1>
-      </main>
-      <footer>
-        <p>Footer</p>
-      </footer>
+        <main>
+          <h1>Homepage</h1>
+        </main>
+        <footer>
+          <p>Footer</p>
+        </footer>
+      </div>
     </>
   );
 };

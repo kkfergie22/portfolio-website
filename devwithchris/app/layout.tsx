@@ -6,7 +6,7 @@ const orbitron = Orbitron({ weight: '700', subsets: ['latin'], variable: '--font
 const roboto = Roboto({ weight: '400', subsets: ['latin'], variable: '--font-roboto' });
 
 export const metadata: Metadata = {
-  title: 'devwithChris',
+  title: 'Christian Kwabena Koranteng',
   description: 'Portfolio website for Christian Kwabena Koranteng',
 };
 
